@@ -1,1 +1,5 @@
-{"president": {"name": "Zaphod Beeblebrox", "species": "Betelgeusian"}}
+{
+"president": {"name": "Zaphod Beeblebrox", "species": "Betelgeusian"},
+"minister": "lod",
+"president": {"name": "Zaphod Beeblebrox", "species": "Betelgeusian"}
+}

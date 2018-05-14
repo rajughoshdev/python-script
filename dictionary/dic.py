@@ -22,11 +22,31 @@ with open ("file.json", "w") as j_file:
 with open ("file.json", "r") as j_file:
         read_j_file = json.load(j_file)
 
-print(read_j_file)
 
 
+dic = {
+  "states": [
+    {
+      "name": "Alabama",
+      "abbreviation": "AL",
+      "area": [
+          {
+              "name" : "Dhaka",
+              "area_codes": ["205", "251", "256", "334", "938"]
+          }
+          
+      ]
+      
+    }
+  ]
+}
 
 
+for state in dic['states']:
+    for area in state['area']:
+        if '205' in area['area_codes']: 
+            area['area_codes'].append("100")
+print(dic)
 
 
 

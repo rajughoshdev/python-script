@@ -1,0 +1,26 @@
+{
+    "name":"raju",
+    "address": { "Road" : "14", "House" : "13" },
+    "email":"raju@gmail.com",
+    "phone":"01675888899",
+    "gadges" : [
+        "mobile",
+        "speker",
+        "monitory",
+        "tv"
+    ],
+    "friends": [
+            {
+                "id": 0,
+                "name": "Vincent Barrera"
+            },
+            {
+                "id": 1,
+                "name": "Huber Skinner"
+            },
+            {
+                "id": 2,
+                "name": "Dionne Le"
+            }
+        ]
+    }
